@@ -1,17 +1,14 @@
-#include <stdio.h>
+#include<stdio.h >
 /**
- * main: print the string in the pust fuction
- * Description: using main funtion
- * this program prints 'programming is like building a multilingual puzzle
- * return:0
+ *  main- print he string in the puts function
+ *  Description: using the main function
+ *  this program prints:"programing is like building a multilingual puzzle
+ *  return = 0 (success)
+ *  return main 
  */
-int main () 
 
-{   // string initalization 
-	char Mystr[ ] ="Programming is like building a multilingual puzzle";
-
-	puts(Mystr);  
-
-
-	return 0;
-}
+int main(void)
+{
+    puts ("\"programming is like building a mulitilingual puzzle");
+    return (0);
+}     
