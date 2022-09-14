@@ -1,4 +1,4 @@
-#lnclude "main.h"
+#include "main.h"
 
 /**
 * main - function to print alphabet
