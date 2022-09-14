@@ -3,8 +3,9 @@
 /**
 * main - function to print alphabet
 *
-* Return 0
+* Description: function that prints alphabet
 *
+* Return 0
 */
 void print_alphabet(void)
 {
