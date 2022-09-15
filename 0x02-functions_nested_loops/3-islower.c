@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
-*main - checks for lower case letter
-*
+*_islower - checks for lower case letter
+*@c: is the int that will use for the argument ofbthe function
 *Return 0 always
 */
 
-int main(void)
+int _islower(int c)
 {
-	char c;
 
-	if (c = 'a' && c <= 'z')
-
-{
+	if (c >= 'a' && c <= 'z')
+	{
 	return (1);
-}
+	}
+
 	else
 
 	return (0);
