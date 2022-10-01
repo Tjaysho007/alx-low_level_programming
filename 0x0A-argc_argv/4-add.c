@@ -28,9 +28,8 @@ int main(int argc, char *argv[])
 
 
 	}
-		if (argv[i][j] > '9' || argv[i][j] < '0')
 		{
-
+			for (k = 1; k < argc; k++)
 			num = atoi(argv[k]);
 			res += num;
 		}
