@@ -8,6 +8,9 @@ dog_t *new_dog(char *name, float age, char *owner);
 /**
  * _strlen - finds the length of a string.
  * Return: the length of the string.
+ * @str: the string to be measured.
+ *
+ *
  */
 int _strlen(char *str)
 {
@@ -49,7 +52,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *doggie;
 	if (name == NULL || age < 0 || owner == NULL)
 
-		return (NUL);
+		return (NULL);
 
 	doggie = malloc(sizeof(dog_t));
 
