@@ -3,7 +3,8 @@ extern printf
 section .text
 	global main
 
-main:	push rbp
+main:	
+	push rbp
 	move rdi,fmt
 	mov rsi,msg
 	mov rax,0
@@ -12,8 +13,11 @@ main:	push rbp
 	pop rbp
 	mov rax,0
 	ret
+
 section .data
 	msg: db "hello, Holberton", 0
 	fmt: db "%s", 10, 0
+
+~
 
 
